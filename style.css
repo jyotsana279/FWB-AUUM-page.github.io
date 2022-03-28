@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+body{
+    background-color: #020202;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:5px solid rgb(220, 241, 235); 
+    margin-left: 4vw;
+    margin-right:4vw;
+    margin-top:2vh;
+    background-color: rgb(5, 5, 5);
+    box-shadow:  5px 5px 5px grey;;
+}
+.logo{
+    width:90px;
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-items li{
+    width:65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.navbar-items li a{
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow:  5px 5px 5px grey;
+    width:80vw;
+    height:80vh;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+
+.heading1{
+    font-size: 6em;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    transition: ease-in;
+    transform: translateX(-50%,-50%);
+    transition:  transform 2s;
+    font-family: 'Roboto Slab', serif;
+}
+.intro{
+    text-align: left;
+    font-size: 1.4em;
+    margin-left: 1vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+  /* about us page */
+  *{
+    box-sizing:border-box;
+
+}
+
+.about {
+    margin-top: 5vh;
+    padding: 60px;
+    background-color: rgb(21, 87, 107);
+    color:azure;
+    margin-left: 10vw;
+    margin-right:10vw;
+}
+.mission {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right:10vw;
+    padding: 20px;
+    background-color:rgb(21, 87, 107);
+    color:antiquewhite;
+    
+}
+h1 {
+    color: aqua;
+}
+h2{
+    color: rgb(15, 15, 15);
+}
+h3{
+    color: rgb(14, 13, 13);
+}
+h4{
+    color: rgb(5, 5, 5);
+}
+
+/* about us end */
+
+.contact {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    border-top: 1px solid rgb(56, 56, 56);
+  }
+  
+  .form-group {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .form-group > input {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+  }
+  
+  .submit-button {
+    width: 25rem;
+    height: 3rem;
+    background-color: rgb(48, 120, 202);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+
+/* price section start */
+*{
+    box-sizing:border-box;
+    
+}
+.product {
+    margin-top: 5vh;
+    padding: 60px;
+    background-color:rgb(18, 35, 41);
+    color:rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+h1{
+    
+    color: aqua;
+}
+p{
+    
+    color: white;
+}
+h2{
+    
+    color: white;
+
+}
+
+    .button{
+        background-color:rgb(37, 163, 201);
+        color:rgb(244, 250, 244);
+        font-size:20px;
+        text-align:center;
+        cursor:pointer;
+        padding:10px;
+        margin:70px 50px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.product-img{
+    width:20vw;
+    height: 20vh;
+}
+
+/* price section end */
+/* for footer start */
+.footer-heading{
+    margin-left: 35vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color:rgb(255, 255, 255);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(21, 87, 107);
+    box-shadow:  5px 5px 5px grey;;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-google{
+    background: #125688;
+    color: white;
+  }
+  .fa-youtube{
+    background: #55ACEE;
+    color: white;
+  }
+
+  .footer-container-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .footer-container-links a{
+      color: black;
+      display: flex;
+      flex-direction: row;
+  }
+  .footer-link a {
+    margin-right: 30px;
+  }
+  
+  .footer-link p {
+    margin-top: 30px;
+  }
